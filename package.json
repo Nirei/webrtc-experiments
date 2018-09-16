@@ -1,0 +1,16 @@
+{
+  "name": "webrtc-experiments",
+  "version": "1.0.0",
+  "description": "Some experiments using WebRTC.",
+  "main": "index.js",
+  "author": "Nirro <nireiorange@gmx.com>",
+  "license": "GPL-3.0",
+  "scripts": {
+    "start": "serve public",
+    "build": "babel src -d public"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}
